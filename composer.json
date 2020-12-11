@@ -1,0 +1,52 @@
+{
+    "name": ":vendor_name/:package-name",
+    "description": ":package_description",
+    "type": "library",
+    "homepage": "https://github.com/digipolisgent/php_package_:package-name",
+    "license": "MIT",
+    "keywords": [
+        ":District09"
+    ],
+    "authors": [
+        {
+            "name": ":author_name",
+            "email": ":author_email"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            ":District09\\:ClassName\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            ":District09\\Tests\\:ClassName\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.3||^8.0"
+    },
+    "require-dev": {
+        "district09/qa-php": "9999999-dev"
+    },
+    "scripts": {
+        "coverage": "vendor/bin/phpunit --configuration=phpunit.qa-php.xml --coverage-html build/coverage",
+        "grumphp": "vendor/bin/grumphp run",
+        "phpcpd": "vendor/bin/grumphp run --tasks=phpcpd",
+        "phpcs": "vendor/bin/grumphp run --tasks=phpcs",
+        "phpmd": "vendor/bin/grumphp run --tasks=phpmd",
+        "phpstan": "vendor/bin/grumphp run --tasks=phpstan",
+        "phpunit": "vendor/bin/phpunit --configuration=phpunit.qa-php.xml",
+        "post-install-cmd": "vendor/bin/grumphp git:init"
+    },
+    "extra": {
+        "grumphp": {
+            "config-default-path": "vendor/district09/qa-php/configs/grumphp.yml"
+        }
+    }
+}
