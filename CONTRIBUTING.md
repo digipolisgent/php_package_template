@@ -50,5 +50,5 @@ Before you submit a pull request, consider the following:
 * Is your PR up-to-date with the branch you're trying to push into?
 * Is your code in check with the [PSR-2 Coding Style Guide].
 
-[posting an issue]: https://github.com/digipolisgent/php_package_gent-lez/issues/new
+[posting an issue]: https://github.com/district09/php_package_gent-lez/issues/new
 [PSR-2 Coding Style Guide]: http://www.php-fig.org/psr/psr-2/

@@ -44,18 +44,18 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more
 information.
 
 [github-badge]: https://img.shields.io/badge/github-:vendor_name_:package_name-blue.svg?logo=github&style=flat-square
-[github-link]: https://github.com/digipolisgent/php_package_:package-name
+[github-link]: https://github.com/district09/php_package_:package-name
 
-[license-badge]: https://img.shields.io/github/license/digipolisgent/php_package_:package-name?style=flat-square
+[license-badge]: https://img.shields.io/github/license/district09/php_package_:package-name?style=flat-square
 [license-link]: LICENSE.md
 
 [packagist-version-badge]: https://img.shields.io/packagist/v/:vendor_name/:package-name?style=flat-square
 [packagist-version-link]: https://packagist.org/packages/:vendor_name/:package-name
 
-[travis-badge]: https://img.shields.io/travis/com/digipolisgent/php_package_:package-name/1.x.svg?label=1.x&logo=travis&style=flat-square
-[travis-link]: https://travis-ci.com/digipolisgent/php_package_:package-name/branches
+[travis-badge]: https://img.shields.io/travis/com/district09/php_package_:package-name/1.x.svg?label=1.x&logo=travis&style=flat-square
+[travis-link]: https://app.travis-ci.com/district09/php_package_:package-name/branches
 
-[codeclimate-maint-badge]: https://img.shields.io/codeclimate/maintainability/digipolisgent/php_package_:package-name?logo=code-climate&style=flat-square
-[codeclimate-maint-link]: https://codeclimate.com/github/digipolisgent/php_package_:package-name
-[codeclimate-cover-badge]: https://img.shields.io/codeclimate/coverage/digipolisgent/php_package_:package-name?logo=code-climate&style=flat-square
-[codeclimate-cover-link]: https://codeclimate.com/github/digipolisgent/php_package_:package-name
+[codeclimate-maint-badge]: https://img.shields.io/codeclimate/maintainability/district09/php_package_:package-name?logo=code-climate&style=flat-square
+[codeclimate-maint-link]: https://codeclimate.com/github/district09/php_package_:package-name
+[codeclimate-cover-badge]: https://img.shields.io/codeclimate/coverage/district09/php_package_:package-name?logo=code-climate&style=flat-square
+[codeclimate-cover-link]: https://codeclimate.com/github/district09/php_package_:package-name
